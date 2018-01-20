@@ -21,12 +21,8 @@ public class ApplicationAnnotation {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationAnnotation.class);
 
-        HomeController h = context.getBean("homeController",HomeController.class);
+        HomeController h = context.getBean("homeController", HomeController.class);
         LOGGER.info(h.getTest());
         LOGGER.info(h.getDebug());
-
-
     }
-
-
 }
