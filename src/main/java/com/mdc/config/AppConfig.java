@@ -19,8 +19,6 @@ import org.springframework.core.env.Environment;
 public class AppConfig {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppConfig.class);
 
-    @Autowired
-    Environment env;
 
     AppConfig() {
         LOGGER.info("AppConfig()");
