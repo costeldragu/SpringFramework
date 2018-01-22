@@ -11,9 +11,7 @@ import javax.annotation.PreDestroy;
 
 /**
  * @author : Costel DRAGU
- * @package : com.mdc.beans
- * @copyright Copyright (c) 2018
- * @date : 17.01.2018 19:52
+ * date : 17.01.2018 19:52
  */
 @Component
 public class SimpleBean implements InitializingBean {

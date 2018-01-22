@@ -11,9 +11,7 @@ import org.springframework.core.env.Environment;
 
 /**
  * @author : Costel DRAGU
- * @package : com.mdc.config
- * @copyright Copyright (c) 2018
- * @date : 17.01.2018 21:19
+ * date : 17.01.2018 21:19
  */
 
 @Configuration
